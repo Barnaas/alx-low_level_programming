@@ -1,8 +1,2 @@
 #!/bin/bash
 gcc -E $CFILE -o c
-#include <stdio.h>
-int main(void)
-{
-	printf("Hello World");
-	return(0);
-}
